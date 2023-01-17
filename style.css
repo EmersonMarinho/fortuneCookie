@@ -2,6 +2,10 @@
   font-size: 62.5%;
 }
 
+.hide {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -41,4 +45,31 @@ p {
   line-height: 2rem;
   font-size: 1.5rem;
   color: #34355b;
+}
+
+.screen2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen2 h1 {
+  width: 29.8rem;
+}
+
+button {
+  border-style: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  height: 5.2rem;
+  width: 17.4rem;
+  padding: 1.6rem;
+  background-color: #ff9500;
+  border-radius: 0.4rem;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d87f03;
 }
